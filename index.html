@@ -154,3 +154,159 @@ Vận dụng 2 :Hãy đưa ra cách định dạng một đoạn văn bản đ�
     </textPath>
   </text>
 </svg>
+<hr>
+HTML
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập Tin học 12</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        /* Style cho danh sách phía trên */
+        .list-section {
+            margin-bottom: 20px;
+        }
+        .sub-list {
+            list-style-type: lower-alpha;
+            margin-left: 20px;
+        }
+        /* Style chung cho các bảng */
+        table {
+            border-collapse: collapse;
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 6px 10px;
+            text-align: center;
+        }
+        .left-align {
+            text-align: left;
+        }
+        /* Bảng điểm thi phía dưới */
+        .score-table {
+            border: 2px solid green;
+        }
+        .score-table th, .score-table td {
+            border: 1px solid green;
+        }
+        .text-red {
+            color: red;
+        }
+        .text-yellow {
+            color: yellow;
+        }
+        .text-blue {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Phần danh sách -->
+    <div class="list-section">
+        <ul class="sub-list" start="2">
+            <li>Piano</li>
+            <li>Violin</li>
+        </ul>
+        <ol start="4">
+            <li>Khiêu vũ</li>
+        </ol>
+    </div>
+
+    <hr>
+
+    <!-- Bảng 1: Lịch hoạt động CLB Thể thao -->
+    <h3 style="text-align: center; margin-bottom: 5px;">Lịch hoạt động CLB Thể thao</h3>
+    <table style="width: 100%;">
+        <thead>
+            <tr>
+                <th rowspan="2">Bộ môn</th>
+                <th rowspan="2">GV phụ trách</th>
+                <th colspan="5">Ngày</th>
+            </tr>
+            <tr>
+                <th>Thứ 2</th>
+                <th>Thứ 3</th>
+                <th>Thứ 4</th>
+                <th>Thứ 5</th>
+                <th>Thứ 6</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="left-align">Bóng đá</td>
+                <td class="left-align">Thầy Khải</td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <td class="left-align">Bóng chuyền</td>
+                <td class="left-align">Cô Lan</td>
+                <td>X</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="left-align">Bóng rổ</td>
+                <td class="left-align">Thầy Vũ</td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="left-align">Võ thuật</td>
+                <td class="left-align">
+                    Thầy Hoàng - Karatedo<br>
+                    Thầy Đức - Taekwondo<br>
+                    Thầy Thắng - Vovinam
+                </td>
+                <td>X</td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="left-align">Bơi</td>
+                <td class="left-align">Cô Bích</td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <!-- Bảng 2: Điểm thi -->
+    <table class="score-table">
+        <thead>
+            <tr>
+                <th rowspan="2">Họ và tên</th>
+                <th colspan="3">Điểm thi</th>
+            </tr>
+            <tr>
+                <th class="text-red">Toán</th>
+                <th class="text-yellow">Vật lí</th>
+                <th class="text-blue">Hóa học</th>
+            </tr>
+        </thead>
+    </table>
+
+</body>
+</html>

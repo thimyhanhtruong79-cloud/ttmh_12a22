@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang web cá nhân</title>
+</head>
+<body>
+    <h1 style="color: brown; text-align: center;">
+        Trang web cá nhân của em
+    </h1>
+    <h2>Thông tin cá nhân</h2>
+    <p>
+        Họ và tên:
+        <b style="color: green;">Trương Thị Mỹ Hạnh</b>
+    </p>
+    <p>
+        Ngày tháng năm sinh:
+        <mark>2009</mark>
+    <p>
+    <p>
+        Quê quán:
+        <b style="font-size: 28px;">Đà Nẵng</b>
+    </p>
+    <h2>Sở thích</h2>
+    <p>
+        Vẽ tranh: <i>Vẽ trang trí</i>
+    </p>
+    <p>
+        Thể thao: <i>Cầu lông</i>
+    </p>
+</body>
+</html>
+<hr>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Danh sách Câu lạc bộ</title>
+</head>
+<body>
+
+    <h2>Danh sách Câu lạc bộ</h2>
+
+    <!-- Danh sách không thứ tự (dấu chấm) -->
+    <ul>
+        <!-- Mục THỂ THAO -->
+        <li>THỂ THAO
+            <ol>
+                <li>Bóng đá</li>
+                <li>Bóng chuyền</li>
+                <li>Bóng rổ</li>
+                <li>Võ
+                    <ol type="a">
+                        <li>Karatedo</li>
+                        <li>Taekwondo</li>
+                        <li>Vovinam</li>
+                    </ol>
+                </li>
+                <li>Bơi</li>
+            </ol>
+        </li>
+
+        <!-- Mục NGHỆ THUẬT -->
+        <li>NGHỆ THUẬT
+            <ol>
+                <li>Mĩ thuật</li>
+                <li>Nhiếp ảnh</li>
+                <li>Âm nhạc
+                    <ol type="a">
+                        <li>Thanh nhạc</li>
+                        <li>Piano</li>
+                        <li>Violin</li>
+                    </ol>
+                </li>
+                <li>Khiêu vũ</li>
+            </ol>
+        </li>
+    </ul>
+
+</body>
+</html>
+<hr>
+THỰC HÀNH ĐỊNH DẠNG VĂN BẢN VÀ PHÔNG CHỮ
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Biện luận số nghiệm của phương trình bậc 2</title>
+</head>
+<body>
+
+    <!-- Tiêu đề (dòng 1) -->
+    <h2>Biện luận số nghiệm của phương trình bậc 2</h2>
+
+    <!-- Dòng 2 -->
+    <h3><span style="color: rgb(205,0,0);">Bài toán:</span> Xác định số nghiệm của phương trình ax<sup>2</sup> + bx + c = 0 (a != 0)</h3>
+
+    <!-- Dòng 3 -->
+    <p><b>Cách làm:</b></p>
+
+    <!-- Đoạn văn bản gồm các dòng từ 4 đến 9 -->
+    <p>
+        B<sub>1</sub>: Xác định hệ số a, b và c<br>
+        B<sub>2</sub>: Tính delta = b<sup>2</sup> - 4ac<br>
+        B<sub>3</sub>: Kết luận<br>
+        + Nếu delta &lt; 0: Phương trình vô nghiệm<br>
+        + Nếu delta = 0: Phương trình có nghiệm duy nhất<br>
+        + Nếu delta &gt; 0: Phương trình có hai nghiệm phân biệt
+    </p>
+
+</body>
+</html>
+<hr>
+Luyện tập 2 Trình bày đoạn văn bản sau bằng mã HTML:
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Internet Tốc Độ Cao</title>
+</head>
+<body>
+
+    <!-- Tiêu đề lớn -->
+    <h2>INTERNET TỐC ĐỘ CAO</h2>
+
+    <!-- Đoạn giới thiệu in nghiêng -->
+    <p><i>Dịch vụ Internet tốc độ cao là dịch vụ Internet cáp quang chất lượng cao, ổn định, giá cả hợp lý.</i></p>
+
+    <!-- Tiêu đề phụ/Đoạn in đậm -->
+    <p><b>Các tính năng nổi bật: .</b></p>
+
+    <!-- Danh sách các tính năng -->
+    <p>
+        Tốc độ siêu cao từ 150 Mbps trở lên<br>
+        Lắp đặt nhanh chóng trong 24 h<br>
+        Phù hợp với cá nhân/Hộ gia đình<br>
+        Tặng Modem 2 băng tần<br>
+        Miễn phí lắp đặt<br>
+        Hỗ trợ 24/7
+    </p>
+
+</body>
+</html>
+<hr>
+Vận dụng 2 :Hãy đưa ra cách định dạng một đoạn văn bản để được kết quả như hình (ký tự uốn lượn hình sóng):
+<svg width="500" height="150" viewBox="0 0 500 150">
+  <!-- Định nghĩa đường dẫn hình sóng -->
+  <path id="wavePath" d="M 10,80 Q 60,10 110,80 T 210,80 T 310,80 T 410,80" fill="transparent" />
+
+  <!-- Đặt văn bản chạy theo đường dẫn sóng -->
+  <text font-size="20" font-family="sans-serif">
+    <textPath href="#wavePath">
+      OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    </textPath>
+  </text>
+</svg>
